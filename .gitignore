@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database and private data
+*.db
+*.sqlite
+*.sqlite3
+
+# Next.js
+node_modules/
+.next/
+out/
+frontend/.env.local
+
+# Backups
+*.backup
+*.backup-*
+*.before-*
+*.broken-backup
+
+# System files
+.DS_Store
